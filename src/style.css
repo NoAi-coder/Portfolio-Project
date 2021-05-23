@@ -1,8 +1,23 @@
 h1 {
-  font-family: "Archivo Black", sans-serif;
-  color: blue;
+  font-family: var(--prio-font);
+  color: var(--hero-h1color);
 }
 
-p {
-  font-family: "Quicksand", sans-serif;
+:root {
+  --hero-backcolor: #e1e5ea;
+  --hero-h1color: #da7f8f;
+  --prio-font: "Archivo Black", sans-serif;
+  --second-font: "Quicksand", sans-serif;
+}
+.hero-body {
+  background: var(--hero-backcolor);
+  text-align: center;
+  padding: 160px 20px;
+  font-family: var(--second-font);
+}
+.btn-branding {
+  background: #a7bbc7;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 15px 10px;
 }

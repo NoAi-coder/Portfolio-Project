@@ -1,11 +1,23 @@
 h1 {
   font-family: var(--prio-font);
   color: var(--hero-h1color);
+  font-size: 96px;
 }
-
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 30px;
+  color: var(--hero-h1color);
+}
+p {
+  line-height: 1.5;
+  font-size: 20px;
+}
 :root {
   --hero-backcolor: #e1e5ea;
   --hero-h1color: #da7f8f;
+  --branding-color: #a7bbc7;
   --prio-font: "Archivo Black", sans-serif;
   --second-font: "Quicksand", sans-serif;
 }
@@ -16,8 +28,27 @@ h1 {
   font-family: var(--second-font);
 }
 .btn-branding {
-  background: #a7bbc7;
+  background: var(--branding-color);
   border-radius: 4px;
   font-size: 14px;
   padding: 15px 10px;
+}
+
+.btn-project1 {
+  border-color: var(--branding-color);
+  color: var(--branding-color);
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 15px 10px;
+}
+
+.project-description {
+  padding: 80px 40px;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }

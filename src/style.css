@@ -30,8 +30,8 @@ p {
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
-  font-size: 14px;
-  padding: 15px 10px;
+  font-size: 18px;
+  padding: 18px 15px;
 }
 
 .btn-project1 {
@@ -43,7 +43,7 @@ p {
 }
 
 .project-description {
-  padding: 80px 40px;
+  padding: 30px 60px;
 }
 
 @media (max-width: 960px) {

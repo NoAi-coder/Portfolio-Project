@@ -51,8 +51,32 @@ p {
   border: 2px solid rgb(206, 202, 202);
 }
 
+.about-h1 {
+  font-family: var(--prio-font);
+  color: var(--hero-h1color);
+  font-size: 65px;
+}
+.about-h2 {
+  font-size: 30px;
+  font-family: var(--second-font);
+}
+.about-p {
+  font-size: 20px;
+  font-family: var(--second-font);
+}
+.skill-icon-image {
+  padding: 0px;
+}
+.about-me-image {
+  max-width: 500px;
+}
 @media (max-width: 960px) {
   .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .about-me-section {
     padding: 0;
     text-align: center;
   }

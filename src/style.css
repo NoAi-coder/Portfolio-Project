@@ -70,14 +70,19 @@ p {
 .about-me-image {
   max-width: 500px;
 }
-@media (max-width: 960px) {
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
+
 
   .content-section {
     padding: 0;
     text-align: center;
   }
+
+.project-cat-image {
+  max-width: 85%;
 }
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }

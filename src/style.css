@@ -70,16 +70,16 @@ p {
 .about-me-image {
   max-width: 500px;
 }
-  .content-section {
-    padding: 0;
-    text-align: center;
-  }
+.content-section {
+  padding: 0;
+  text-align: center;
+}
 
 .project-cat-image {
   max-width: 85%;
 }
 
-.logo{
+.logo {
   max-height: 50px;
 }
 
@@ -90,43 +90,56 @@ nav ul {
   padding: 0;
   margin: 0;
 }
-nav li{
+nav li {
   display: inline;
   padding: 0 10px;
   list-style-type: none;
   line-height: 45px;
 }
 nav a {
-text-decoration: none;
-color: black;
+  text-decoration: none;
+  color: black;
 }
 
 nav a:hover,
-nav li.active a{
+nav li.active a {
   color: var(--hero-h1color);
 }
 
-
-
 footer .social-link a {
   margin: 0 20px;
-color: var(--branding-color);
-    font-size: 30px;
-    transition: all 100ms ease-in-out;
+  color: var(--branding-color);
+  font-size: 30px;
+  transition: all 100ms ease-in-out;
 }
 
-footer .social-link a:hover{
-  
+footer .social-link a:hover {
   color: var(--hero-h1color);
 }
 
 footer {
   margin: 50px 0;
-  
 }
+
+footer p {
+  font-size: 15px;
+}
+
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
     text-align: center;
     transition: all 100ms eas-in-out;
   }
+  .content-h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  .content-h2 {
+    text-align: center;
+  }
+
+  .hero-body {
+    padding: 70px 20px;
+  }
+}

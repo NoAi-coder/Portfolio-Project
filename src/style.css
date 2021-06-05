@@ -70,8 +70,6 @@ p {
 .about-me-image {
   max-width: 500px;
 }
-
-
   .content-section {
     padding: 0;
     text-align: center;
@@ -80,6 +78,7 @@ p {
 .project-cat-image {
   max-width: 85%;
 }
+
 
 @media (max-width: 960px) {
   .project-description {
